@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HenFreir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="logo">Henrique Freire</h1>
+            <nav class="menu">
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Olá, eu sou <span>Henrique Freire</span></h2>
+                <p>Desenvolvedor front-end & criador de experiências digitais</p>
+                <a href="#projetos" class="btn">Conheça meu trabalho</a>
+            </div>
+            <a href="#sobre" class="scroll-down">▼</a>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre mim</h2>
+                <div class="sobre-grid">
+                    <div class="sobre-texto">
+                        <p>Henrique Freire, 19 anos, desenvolvedor back-end em formação. Autodidata há 5 anos e atualmente cursando ADS. Já passei por diversas tecnologias – Java, Python, JavaScript, Node.js, AWS, Docker – e embora não domine nenhuma completamente, tenho sede de aprendizado e foco em código limpo e eficiente. Busco meu primeiro estágio para aplicar meus conhecimentos e crescer profissionalmente</p>
+                    </div>
+                    <div class="sobre-skills">
+                        <h3>Algumas tecnologias</h3>
+                        <ul class="skills-list">
+                            /* Back-end / Linguagens principais */
+                            <li style="--skill-color: #f7df1e; --skill-glow: #f7df1e80;">JavaScript</li>
+                            <li style="--skill-color: #68a063; --skill-glow: #68a06380;">Node.js</li>
+                            <li style="--skill-color: #007396; --skill-glow: #00739680;">Java</li>
+                            <li style="--skill-color: #3776ab; --skill-glow: #3776ab80;">Python</li>
+                            /* Front-end & Design */
+                            <li style="--skill-color: #e44d26; --skill-glow: #e44d2680;">HTML & CSS</li>
+                            <li style="--skill-color: #9b59b6; --skill-glow: #9b59b680;">UI Design</li>
+                            /* Cloud */
+                            <li style="--skill-color: #ff9900; --skill-glow: #ff990080;">AWS</li>
+                            <li style="--skill-color: #f80000; --skill-glow: #f8000080;">Oracle Cloud</li>
+                            /* Versionamento & DevOps */
+                            <li style="--skill-color: #2496ed; --skill-glow: #2496ed80;">Docker</li>
+                            <li style="--skill-color: #f05032; --skill-glow: #f0503280;">Git</li>
+                            /* Embarcados / Outros */
+                            <li style="--skill-color: #00979d; --skill-glow: #00979d80;">Arduino (C/C++)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <div class="container">
+                <h2>Projetos recentes</h2>
+                <div class="grid">
+                    <div class="card">
+                        <div class="card-img" style="background: #6c5ce7;"></div>
+                        <h3>Projeto Alpha</h3>
+                        <p>Uma aplicação web para gerenciamento de tarefas com React e Node.</p>
+                        <a href="#" class="card-link">Ver detalhes →</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background: #00b894;"></div>
+                        <h3>Projeto Beta</h3>
+                        <p>Landing page responsiva para uma startup de tecnologia.</p>
+                        <a href="#" class="card-link">Ver detalhes →</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background: #e17055;"></div>
+                        <h3>Projeto Gamma</h3>
+                        <p>Dashboard interativo com dados em tempo real usando D3.js.</p>
+                        <a href="#" class="card-link">Ver detalhes →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Vamos conversar?</h2>
+                <div class="contato-wrapper">
+                    <form>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu email" required>
+                        <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit" class="btn">Enviar mensagem</button>
+                    </form>
+                    <div class="contato-info">
+                        <p>Email: <a href="mailto:exemplo@email.com">henriquefreire14.hf@email.com</a></p>
+                        <div class="social-links">
+                            <a href="https://github.com/loomuun"><img src="./imgs/github.png" alt="GitHub"></a>
+                            <a href="https://linkedin.com/in/loomuun"><img src="./imgs/linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>© 2025 Henrique Freire. Feito com HTML e CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>
